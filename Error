@@ -1,0 +1,133 @@
+
+Error occured in: Global
+Count: 1
+Message: ...terface\AddOns\ShadowedUnitFrames\modules\totems.lua line 131:
+   attempt to call global 'GetTotemInfo' (a nil value)
+Debug:
+   ...terface\AddOns\ShadowedUnitFrames\modules\totems.lua:131: Update()
+   ...terface\AddOns\ShadowedUnitFrames\modules\totems.lua:98: ?()
+   ...ace\AddOns\ShadowedUnitFrames\ShadowedUnitFrames.lua:586: FireModuleEvent()
+   ...terface\AddOns\ShadowedUnitFrames\modules\layout.lua:147: Load()
+   ...nterface\AddOns\ShadowedUnitFrames\modules\units.lua:284: SetVisibility()
+   ...nterface\AddOns\ShadowedUnitFrames\modules\units.lua:472:
+      ...nterface\AddOns\ShadowedUnitFrames\modules\units.lua:352
+   [C]: SetAttribute()
+   ...nterface\AddOns\ShadowedUnitFrames\modules\units.lua:816: LoadUnit()
+   ...nterface\AddOns\ShadowedUnitFrames\modules\units.lua:1179: InitializeFrame()
+   ...ace\AddOns\ShadowedUnitFrames\ShadowedUnitFrames.lua:271: LoadUnits()
+   ...ace\AddOns\ShadowedUnitFrames\ShadowedUnitFrames.lua:95: OnInitialize()
+   ...ace\AddOns\ShadowedUnitFrames\ShadowedUnitFrames.lua:867:
+      ...ace\AddOns\ShadowedUnitFrames\ShadowedUnitFrames.lua:865
+Locals:
+self = <table> {
+ moduleClass = "SHAMAN"
+ moduleHasBar = true
+ OnLayoutWidgets = <function> defined @Interface\AddOns\ShadowedUnitFrames\modules\helpers.lua:23
+ Update = <function> defined @Interface\AddOns\ShadowedUnitFrames\modules\totems.lua:120
+ OnDisable = <function> defined @Interface\AddOns\ShadowedUnitFrames\modules\totems.lua:50
+ OnEnable = <function> defined @Interface\AddOns\ShadowedUnitFrames\modules\totems.lua:16
+ OnLayoutApplied = <function> defined @Interface\AddOns\ShadowedUnitFrames\modules\totems.lua:59
+ moduleKey = "totemBar"
+ DisableTag = <function> defined @Interface\AddOns\ShadowedUnitFrames\modules\helpers.lua:13
+ moduleName = "Totem bar"
+ EnableTag = <function> defined @Interface\AddOns\ShadowedUnitFrames\modules\helpers.lua:9
+ SecureLockable = <function> defined @Interface\AddOns\ShadowedUnitFrames\modules\totems.lua:12
+}
+frame = SUFUnitplayer {
+ 0 = <userdata>
+ OnEnter = <function> defined @Interface\AddOns\ShadowedUnitFrames\modules\units.lua:527
+ UnregisterAll = <function> defined @Interface\AddOns\ShadowedUnitFrames\modules\units.lua:125
+ auras = <table> {
+ }
+ castBar = <unnamed> {
+ }
+ registeredEvents = <table> {
+ }
+ UnitClassToken = <function> defined @Interface\AddOns\ShadowedUnitFrames\modules\units.lua:542
+ powerBar = <unnamed> {
+ }
+ RegisterNormalEvent = <function> defined @Interface\AddOns\ShadowedUnitFrames\modules\units.lua:47
+ SetVisibility = <function> defined @Interface\AddOns\ShadowedUnitFrames\modules\units.lua:226
+ healthBar = <unnamed> {
+ }
+ RegisterUpdateFunc = <function> defined @Interface\AddOns\ShadowedUnitFrames\modules\units.lua:98
+ SetBlockColor = <function> defined @Interface\AddOns\ShadowedUnitFrames\modules\units.lua:171
+ unitType = "player"
+ SetRangeAlpha = <function> defined @Interface\AddOns\ShadowedUnitFrames\modules\units.lua:159
+ visibility = <table> {
+ }
+ indicators = <unnamed> {
+ }
+ unitInitialized = true
+ unitRealType = "player"
+ totemBar = <unnamed> {
+ }
+ unit = "player"
+ ReregisterUnitEvents = <function> defined @Interface\AddOns\ShadowedUnitFrames\modules\units.lua:26
+ RegisterUnitEvent = <function> defined @Interface\AddOns\ShadowedUnitFrames\modules\units.lua:92
+ comboPoints = <unnamed> {
+ }
+ fontStrings = <table> {
+ }
+ unitEventOverrides = <table> {
+ }
+ highFrame = <unnamed> {
+ }
+ unitOwner = "player"
+ DisableRangeAlpha = <function> defined @Interface\AddOns\ShadowedUnitFrames\modules\units.lua:151
+ OnLeave = <function> defined @Interface\AddOns\ShadowedUnitFrames\modules\units.lua:535
+ fullUpdates = <table> {
+ }
+ UnregisterUpdateFunc = <function> defined @Interface\AddOns\ShadowedUnitFrames\modules\units.lua:115
+ UnregisterSingleEvent = <function> defined @Interface\AddOns\ShadowedUnitFrames\modules\units.lua:75
+ BlizzRegisterUnitEvent = <function> defined =[C]:-1
+ incHeal = <unnamed> {
+ }
+ FullUpdate = <function> defined @Interface\AddOns\ShadowedUnitFrames\modules\units.lua:18
+ SetBarColor = <function> defined @Interface\AddOns\ShadowedUnitFrames\modules\units.lua:167
+ topFrameLevel = 5
+}
+totalActive = 0
+(for generator) = <function> defined =[C]:-1
+(for state) = <table> {
+ 1 = <unnamed> {
+ }
+ 2 = <unnamed> {
+ }
+ 3 = <unnamed> {
+ }
+ 4 = <unnamed> {
+ }
+}
+(for control) = 1
+_ = 1
+indicator = <unnamed> {
+ parent = SUFUnitplayer {
+ }
+ background = <unnamed> {
+ }
+ id = 2
+ 0 = <userdata>
+}
+have = nil
+_name = nil
+start = nil
+duration = nil
+icon = nil
+(*temporary) = nil
+(*temporary) = 2
+(*temporary) = "attempt to call global 'GetTotemInfo' (a nil value)"
+MAX_TOTEMS = 4
+totemMonitor = <function> defined @Interface\AddOns\ShadowedUnitFrames\modules\totems.lua:101
+totemColors = <table> {
+ 1 = <table> {
+ }
+ 2 = <table> {
+ }
+ 3 = <table> {
+ }
+ 4 = <table> {
+ }
+}
+
+
